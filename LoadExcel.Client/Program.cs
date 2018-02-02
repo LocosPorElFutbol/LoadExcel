@@ -27,7 +27,7 @@ namespace LoadExcel.Client
             try
             {
                 string path = "C:\\Leo\\Dropbox\\Desarrollos\\LandManagement\\Documentos\\Archivos inmobiliaria\\TestImport\\BASE DE DATOS - CUMPLEAÑOS (ACTUAL)Import.xlsx";
-                string pathOld = "C:\\Leo\\Dropbox\\Desarrollos\\Librerias\\ImportarExcel\\Pruebas\\BASE DE DATOS - CUMPLEAÑOS (ACTUAL).xlsx";
+                //string pathOld = "C:\\Leo\\Dropbox\\Desarrollos\\Librerias\\ImportarExcel\\Pruebas\\BASE DE DATOS - CUMPLEAÑOS (ACTUAL).xlsx";
                 ExcelBusiness excelBusiness = new ExcelBusiness(path);
                 List<PersonaExcelEntity> lista = (List<PersonaExcelEntity>)excelBusiness.RetornarRowExcel("BASE TOTAL DE CLIENTES CUMPLE");
 
